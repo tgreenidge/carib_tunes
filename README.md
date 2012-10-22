@@ -1,0 +1,1 @@
+# Final project for WDI course with General Assembly. This app, called Carib Tunes, is a music manager of Caribbean songs and artists. Created by Tisha Greenidge
