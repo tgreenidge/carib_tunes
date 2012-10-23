@@ -1,4 +1,10 @@
 CaribTunes::Application.routes.draw do
+
+  match '/home' => 'home#index', :via => :get
+
+  resources :genres, :albums, :artists, :songs, :users
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +54,9 @@ CaribTunes::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+
+  resources :genres, :albums, :artists, :songs, :users
+  
 
   # See how all your routes lay out with "rake routes"
 
