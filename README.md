@@ -1,1 +1,1 @@
-# Final project for WDI course with General Assembly. This app, called Carib Tunes, is a music manager of Caribbean songs and artists. Created by Tisha Greenidge
+This shows the database configuration for Carib Tunes, a rails app
